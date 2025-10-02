@@ -5,7 +5,7 @@ pipeline {
         stage('Checkout') {
             steps {
                 git branch: 'main',
-                    url: .git'
+                    url:'https://github.com/rajputshubham471/my_wb_app.git'
             }
         }
 
